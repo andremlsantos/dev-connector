@@ -6,6 +6,9 @@ const connectDB = require("./config/db");
 // Connect to database
 connectDB();
 
+// Init middleware - get data in request body
+app.use(express.json({ extended: false }));
+
 // Define routes
 app.use("/api/users/", require("./routes/api/user"));
 app.use("/api/posts/", require("./routes/api/post"));
