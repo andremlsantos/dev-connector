@@ -1,7 +1,0 @@
-{
-    "mongoURI": "mongodb+srv://dev-connector:XYqpAzLOCoJBTPM4@devcluster-qnbt5.mongodb.net/dev-connector?retryWrites=true&w=majority",
-    "jwtSecret": "myballsaresecret",
-    "githubClientId": "cffa3d0bc77d88e59225",
-    "githubClientSecret": "df9e0f4d674936189f426a571c0370faff9e79f9",
-    "githubToken": "a402baf3e5374eed7621695736025752ebd12958"
-}
