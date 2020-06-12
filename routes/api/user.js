@@ -56,11 +56,10 @@ router.post(
             user.password = await bcryptjs.hash(password, salt);
             await user.save();
 
-            // Return jsonwebtoken
+            // Return token
             const payload = {
                 user: {
                     id: user.id,
-                    name: user.name
                 }
             };
 
